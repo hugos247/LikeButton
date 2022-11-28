@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <nav class="nav-bar">
+        <h1>Network</h1>
+    </nav>
+    <div class="flex-title-container">
+        <h2 class="feed-title">Your Feed</h2>
+    </div>
+
+    <main class="flex-main-container">
+        <div class="side-container">
+            <aside class="article-container">
+                <img src="./icons/user-circle.png" alt="icono de usuario" width="120px" height="120px">
+                <a class="avatar-link" href="#">Add an avatar</a>
+                <h2>James Joe</h2
+            </aside>
+        </div>
+
+        <article class="user-info-container">
+            <div class="user-box-1">
+                <div class="up-text-container">
+                    <h2>Neil M</h2>
+                    <p class="like-counter-1">0 like(s)</p>
+                    <button onclick="counterOfLikesOne()" class="like-button-1">Like</button>
+                </div>
+                <p>I just set up this new discord bot, let me know</p>
+                <p>what you all think, <a href="#">link.</a></p> 
+            </div>
+
+            <div class="user-box-2">
+                <div class="up-text-container">
+                    <h2>Nichole K</h2>
+                    <p class="like-counter-2">0 like(s)</p>
+                    <button onclick="counterOfLikesTwo()" class="like-button-2">Like</button>
+                </div>
+                <p>Just finished my<a href="#"> next comic</a>, check it out.</p>
+            </div>
+
+            <div class="user-box-3">
+                <div class="up-text-container">
+                    <h2>Jim R</h2>
+                    <p class="like-counter-3">0 like(s)</p>
+                    <button onclick="counterOfLikesThree()" class="like-button-3">Like</button>
+                </div>
+                <p>I can't stop listening to the <a href="#">new album</a></p>
+                <p>Who else is liking</p> 
+            </div>
+        </article>
+
+        <script src="./script.js"></script>
+    </main>
+
+
+</body>
+</html>
